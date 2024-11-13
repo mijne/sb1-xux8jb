@@ -1,0 +1,35 @@
+.container {
+  width: 300px;
+  padding: 16px;
+}
+
+.controls {
+  display: flex;
+  gap: 8px;
+  margin: 16px 0;
+}
+
+.btn {
+  padding: 8px 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.status {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8px;
+}
+
+#timer {
+  font-family: monospace;
+  font-size: 1.2em;
+}
